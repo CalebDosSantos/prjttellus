@@ -1,0 +1,195 @@
+.App{
+  border: 1px solid red;
+}
+
+.App-nav{
+  background-color: #1447fc;
+  color: white;
+  align-items: center;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 80px;
+  margin: 0px auto;
+  font-size: 20px;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+  margin-left: 30px;
+} 
+
+li{
+  list-style: none;
+  margin-left: 30px;
+  font-size: 16px
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+form {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;justify-content: space-between;
+  margin: 20px 5px;
+  font-style: normal;
+  font-size: 16px;
+  color: #746D6D;
+}
+
+.col-1{
+  width: 100%;
+  font-style: normal;
+  font-size: 16px;
+  color: #746D6D;
+  line-height: 150%;
+
+}
+
+.col-2{
+  width: 45%;
+  font-style: normal;
+  font-size: 16px;
+  color: #746D6D;
+  
+}.col-3{
+  width: 27%;
+  font-style: normal;
+  font-size: 16px;
+  color: #746D6D;
+}
+
+.col-uf{
+
+  width: 45%;
+  font-style: normal;
+  font-size: 16px;
+  color: #746D6D;
+}
+
+input{
+  width: 100%;
+  padding: 10px;
+}
+
+button{
+  padding: 10px 30px;
+  border: 0px;
+  background: #1447fc;
+  color: #FFF;
+  
+}
+
+h1{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color:black;
+  fill: solid;
+  
+}
+
+.img {
+  align-self: center;
+  /* /flex: 1 1 auto; */
+  padding: 5px;
+  width: 30px;
+
+}
+
+.cadastro {
+  align-self: center;
+  /* /flex: 1 1 auto; */
+  padding: 10px;
+  font-size: 20px;
+  color:black;
+}
+
+.dropbtn {
+  background-color: #FFF;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  /* /color: black; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FFF;
+}
+
+input[list], select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0px;
+  padding: 10px;
+  text-overflow: '';
+  background: url("dropdown.png") no-repeat center right;
+  color: #746D6D;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[list]::-ms-expand{
+  display: none;
+}
+
+select::-ms-expand {
+  display: none;
+} 
